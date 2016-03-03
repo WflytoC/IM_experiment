@@ -1,0 +1,25 @@
+
+融云 SDK 包括两部分：
+IM 界面组件和 IM 通讯能力库
+
+1.IM 界面组件 - IMKit
+
+即时通讯产品中最复杂的功能 ----- 会话列表、聊天窗口、消息内容展现、会话设置等
+
+IMKit 的核心类在 Android 平台是 RongIM，在 iOS 平台是 RCIM，这两个类在今后的开发中和 IMKit 代表相同的意义。
+
+
+2.IM 通讯能力库 - IMLib
+
+IMLib 的核心类在 Android 平台是 RongIMClient，在 iOS 平台是 RCIMClient，这两个类
+在今后的开发中和 IMLib 代表相同的意义。
+
+
+开发：
+
+1. App Key / Secret
+App Key / Secret 相当于您的 App 在融云的账号和密码。是融云 SDK 连接服务器所必须的标识，每一个 App 对应一套 App Key / Secret。
+2. Token
+Token 即用户令牌，相当于您APP上当前用户连接融云的身份凭证。每个用户连接服务器都需要一个 Token，用户更换即需要更换 Token。每次初始化连接服务器时，都需要向服务器提交 Token。
+3.会话及会话类型
+4.消息、消息内容及消息类型

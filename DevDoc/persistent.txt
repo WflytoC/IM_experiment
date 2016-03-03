@@ -1,0 +1,12 @@
+UserDefaults:
+
+登陆状态
+key: "user_status"
+value: "login" "skip"
+
+保存用户标识
+key: "user_email"
+
+保存应用token
+
+key：“user_token”

@@ -1,0 +1,137 @@
+获取 Token 
+function getToken($userId, $name, $portraitUri)
+
+发送会话消息
+function messagePublish($fromUserId, $toUserId = array(), $objectName, $content, $pushContent='', $pushData = '')
+
+以一个用户身份向群组发送消息
+function messageGroupPublish($fromUserId, $toGroupId = array(), $objectName, $content, $pushContent='', $pushData = '')
+
+一个用户向聊天室发送消息
+function messageChatroomPublish($fromUserId, $toChatroomId = array(), $objectName, $content)
+
+发送讨论组消息
+function messageDiscussionPublish($fromUserId,$toDiscussionId,$objectName,$content,$pushContent='',$pushData='')
+
+一个用户向一个或多个用户发送系统消息
+function messageSystemPublish($fromUserId,$toUserId = array(),$objectName,$content,$pushContent='',$pushData = '')
+
+某用户发送消息给一个应用下的所有注册用户
+function messageBroadcast($fromUserId,$objectName,$content)
+
+获取 APP 内指定某天某小时内的所有会话消息记录的下载地址
+function messageHistory($date)
+
+删除 APP 内指定某天某小时内的所有会话消息记录
+function messageHistoryDelete($date)
+
+向融云服务器提交 userId 对应的用户当前所加入的所有群组
+function groupSync($userId, $data = array())
+
+将用户加入指定群组，用户将可以收到该群的消息
+function groupJoin($userId, $groupId, $groupName)
+
+将用户从群中移除，不再接收该群组的消息。
+function groupQuit($userId, $groupId)
+
+解散群组方法  将该群解散，所有用户都无法再接收该群的消息
+function groupDismiss($userId, $groupId)
+
+创建群组，并将用户加入该群组，用户将可以收到该群的消息。注：其实本方法是加入群组方法 /group/join 的别名
+function groupCreate($userId, $groupId, $groupName)
+
+查询群成员
+function groupUserQuery( $groupId )
+
+创建聊天室
+function chatroomCreate($data = array())
+
+销毁聊天室
+function chatroomDestroy($chatroomId)
+
+查询聊天室信息
+function chatroomQuery($chatroomId)
+
+查询聊天室内用户
+function userChatroomQuery($chatroomId)
+
+检查用户在线状态
+function userCheckOnline($userId)
+
+封禁用户
+function userBlock($userId,$minute)
+
+解除用户封禁
+function userUnBlock($userId)
+
+获取被封禁用户
+function userBlockQuery()
+
+刷新用户信息
+function userRefresh($userId,$name='',$portraitUri='')
+
+添加用户到黑名单
+function userBlacklistAdd($userId,$blackUserId = array())
+
+获取某个用户的黑名单列表
+function userBlacklistQuery($userId)
+
+从黑名单中移除用户
+function userBlacklistRemove($userId, $blackUserId = array())
+
+添加禁言群成员
+function groupUserGagAdd($userId,$groupId,$minute)
+
+移除禁言群成员
+function groupUserGagRollback($userId,$groupId)
+
+查询被禁言群成员
+function groupUserGagList($groupId)
+
+添加敏感词
+function wordfilterAdd($word)
+
+移除敏感词
+function wordfilterDelete($word)
+
+查询敏感词列表
+function wordfilterList()
+
+添加禁言聊天室成员
+function chatroomUserGagAdd($userId,$chatroomId,$minute)
+
+移除禁言聊天室成员
+function chatroomUserGagRollback($userId,$chatroomId)
+
+查询被禁言聊天室成员 
+function chatroomUserGagList($chatroomId)
+
+添加封禁聊天室成员
+function chatroomUserBlockAdd($userId,$chatroomId,$minute)
+
+移除封禁聊天室成员
+function chatroomUserBlockRollback($userId,$chatroomId)
+
+查询被封禁聊天室成员
+function chatroomUserBlockList($chatroomId)
+
+推送服务
+function pushUserTagSet($userId,$tags)
+
+推送服务
+function push( $platform,$audience,$notification )
+
+推送服务
+function pushMessage( $platform,$fromuserid,$audience,$message,$notification )
+
+创建http header参数
+function createHttpHeader()
+
+重写实现 http_build_query 提交实现
+function build_query($formData, $numericPrefix = '', $argSeparator = '&', $prefixKey = '')
+
+
+
+
+
+

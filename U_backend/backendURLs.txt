@@ -1,0 +1,37 @@
+默认访问页：  http://youneed.duapp.com
+
+1.注册：http://youneed.duapp.com/register.php GET
+	参数：user_name 注册邮箱
+		 user_password密码
+	返回值json：
+		{"code":""} "ok"注册成功 "no"注册失败 “repeat”账号已存在
+
+2.登陆：http://youneed.duapp.com/login.php GET
+示例：http://youneed.duapp.com/login.php?user_name=wcshinestar@outlook.com&user_password=weichuang
+	参数：user_name 注册邮箱
+		 user_password密码
+	返回值json：
+		{"code":""}"ok"注册成功 "no"注册失败 “notactive”账号没有激活
+3.发布：http://youneed.duapp.com/publish.php GET
+
+示例："http://youneed.duapp.com/publish.php?user_email=wcshinestar@outlook.com&publish_location=武汉理工鉴湖校区&publish_locationA=武汉理工大学&publish_info=租一辆自行车&publish_private=0&publish_type=0&publish_distance=100.0&publish_longitude=122.0&publish_latitude=23.0"
+	参数：user_email  注册邮箱
+		 publish_location 手动的位置
+		 publish_locationA 定位的位置
+		 publish_info 描述信息
+		 publish_private 是否隐私
+		 publish_type 类型(需求还是服务)0表示需求，1表示服务
+		 publish_distance 过滤距离
+		 publish_longitude 经度
+		 publish_latitude 纬度
+
+	返回值json：
+		{"code":""}"ok"注册成功 "no"注册失败
+
+4.获取细节：http://youneed.duapp.com/details.php GET
+	示例：http://youneed.duapp.com/details.php?publish_longitude=114.3569&publish_latitude=30.52486&filter_distance=100&choice_type=2&publish_keyword=all
+参数： publish_longitude 经度
+	  publish_latitude 纬度
+	  filter_distance 过滤距离
+	  choice_type 选择类型
+	  publish_keyword 关键词过滤(all代表全部)

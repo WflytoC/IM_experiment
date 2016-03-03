@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+ use_frameworks!
+
+target 'UNeed' do
+pod 'RESideMenu', '~> 4.0.7'
+pod 'BaiduMapKit'
+pod 'Masonry'
+pod 'AFNetworking'
+pod 'MBProgressHUD'
+pod 'Toast', '~>3.0'
+pod 'CustomIOSAlertView', '~> 0.9.3'
+pod 'RongCloudIMKit', '~> 2.4.2'
+end
+

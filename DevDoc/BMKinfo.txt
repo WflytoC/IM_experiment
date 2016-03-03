@@ -1,0 +1,14 @@
+百度地图配置
+
+1.静态库中采用ObjectC++实现，因此需要您保证您工程中至少有一个.mm后缀的源文件(您可以将任意一个.m后缀的文件改名为.mm)，或者在工程属性中指定编译方式，即将Xcode的Project -> Edit Active Target -> Build -> GCC4.2 - Language -> Compile Sources As设置为"Objective-C++"
+
+2.app在前后台切换时，需要使用下面的代码停止地图的渲染和openGL的绘制：
+- (void)applicationWillResignActive:(UIApplication *)application {
+    [BMKMapView willBackGround];//当应用即将后台时调用，停止一切调用opengl相关的操作
+}
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    [BMKMapView didForeGround];//当应用恢复前台状态时调用，回复地图的渲染和opengl相关的操作
+}
+
+3.-(BOOL)start:(NSString*)key generalDelegate:(id<BMKGeneralDelegate>)delegate;
+启动地图主引擎，包含验证

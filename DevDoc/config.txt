@@ -1,0 +1,22 @@
+1. iOS9改用更安全的https
+
+在info.plist中配置：
+
+<key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+2.对iOS8的定位能力做兼容
+
+需要在info.plist里添加（以下二选一，两个都添加默认使用NSLocationWhenInUseUsageDescription）：
+
+<1>NSLocationWhenInUseUsageDescription ，允许在前台使用时获取GPS的描述
+
+<2>NSLocationAlwaysUsageDescription ，允许永久使用GPS的描述
+
+3.使用百度地图
+
+在info.plist中配置
+Bundle display name

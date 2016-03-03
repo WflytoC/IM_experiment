@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5949D2D5471A09EFF3020D5E /* Pods_UNeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289E20D5805D6FAF3C4BA5EE /* Pods_UNeed.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C11910391C2D117800D0F233 /* TTSideController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11910381C2D117800D0F233 /* TTSideController.m */; };
+		C119103E1C2D130900D0F233 /* TThomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C119103D1C2D130900D0F233 /* TThomeController.m */; };
+		C11910411C2E581C00D0F233 /* TTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11910401C2E581C00D0F233 /* TTRootViewController.m */; };
+		C11910461C2E60EB00D0F233 /* TTPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11910451C2E60EB00D0F233 /* TTPublishController.m */; };
+		C119104A1C2E611800D0F233 /* TTRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11910491C2E611800D0F233 /* TTRecordController.m */; };
+		C119104E1C2E613B00D0F233 /* TTProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = C119104D1C2E613B00D0F233 /* TTProfileController.m */; };
+		C11910521C2E71F400D0F233 /* TTLoginRegController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11910511C2E71F400D0F233 /* TTLoginRegController.m */; };
+		C119105B1C2E865B00D0F233 /* TTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C119105A1C2E865B00D0F233 /* TTTools.m */; };
+		C119105E1C2E8B2D00D0F233 /* TTRegController.m in Sources */ = {isa = PBXBuildFile; fileRef = C119105D1C2E8B2D00D0F233 /* TTRegController.m */; };
+		C12F3EB01C381E0A00B226D6 /* TTChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12F3EAF1C381E0A00B226D6 /* TTChatController.m */; };
+		C186D1701C2D0D1C00D55CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C186D16F1C2D0D1C00D55CA9 /* main.m */; };
+		C186D1731C2D0D1C00D55CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C186D1721C2D0D1C00D55CA9 /* AppDelegate.m */; };
+		C186D17B1C2D0D1C00D55CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C186D17A1C2D0D1C00D55CA9 /* Assets.xcassets */; };
+		C186D17E1C2D0D1C00D55CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C186D17C1C2D0D1C00D55CA9 /* LaunchScreen.storyboard */; };
+		C1A154A01C34CC8F00676993 /* TTDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1549F1C34CC8F00676993 /* TTDetailCell.m */; };
+		C1A154A31C35430E00676993 /* TTDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A154A21C35430E00676993 /* TTDetail.m */; };
+		C1F3CDFB1C33C92C00B8ED98 /* TTSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F3CDFA1C33C92C00B8ED98 /* TTSettingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		289E20D5805D6FAF3C4BA5EE /* Pods_UNeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UNeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE2B01097C1F6369A84B925 /* Pods-UNeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-UNeed/Pods-UNeed.release.xcconfig"; sourceTree = "<group>"; };
+		C11910371C2D117800D0F233 /* TTSideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSideController.h; sourceTree = "<group>"; };
+		C11910381C2D117800D0F233 /* TTSideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSideController.m; sourceTree = "<group>"; };
+		C119103C1C2D130900D0F233 /* TThomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TThomeController.h; sourceTree = "<group>"; };
+		C119103D1C2D130900D0F233 /* TThomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TThomeController.m; sourceTree = "<group>"; };
+		C119103F1C2E581C00D0F233 /* TTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRootViewController.h; sourceTree = "<group>"; };
+		C11910401C2E581C00D0F233 /* TTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRootViewController.m; sourceTree = "<group>"; };
+		C11910441C2E60EB00D0F233 /* TTPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPublishController.h; sourceTree = "<group>"; };
+		C11910451C2E60EB00D0F233 /* TTPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPublishController.m; sourceTree = "<group>"; };
+		C11910481C2E611800D0F233 /* TTRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRecordController.h; sourceTree = "<group>"; };
+		C11910491C2E611800D0F233 /* TTRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRecordController.m; sourceTree = "<group>"; };
+		C119104C1C2E613B00D0F233 /* TTProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTProfileController.h; sourceTree = "<group>"; };
+		C119104D1C2E613B00D0F233 /* TTProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTProfileController.m; sourceTree = "<group>"; };
+		C11910501C2E71F400D0F233 /* TTLoginRegController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoginRegController.h; sourceTree = "<group>"; };
+		C11910511C2E71F400D0F233 /* TTLoginRegController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoginRegController.m; sourceTree = "<group>"; };
+		C11910581C2E7AD900D0F233 /* TTGlobals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTGlobals.h; sourceTree = "<group>"; };
+		C11910591C2E865B00D0F233 /* TTTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTools.h; sourceTree = "<group>"; };
+		C119105A1C2E865B00D0F233 /* TTTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTools.m; sourceTree = "<group>"; };
+		C119105C1C2E8B2D00D0F233 /* TTRegController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRegController.h; sourceTree = "<group>"; };
+		C119105D1C2E8B2D00D0F233 /* TTRegController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRegController.m; sourceTree = "<group>"; };
+		C12F3EAE1C381E0A00B226D6 /* TTChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTChatController.h; sourceTree = "<group>"; };
+		C12F3EAF1C381E0A00B226D6 /* TTChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTChatController.m; sourceTree = "<group>"; };
+		C186D16B1C2D0D1C00D55CA9 /* UNeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C186D16F1C2D0D1C00D55CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C186D1711C2D0D1C00D55CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C186D1721C2D0D1C00D55CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C186D17A1C2D0D1C00D55CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C186D17D1C2D0D1C00D55CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C186D17F1C2D0D1C00D55CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A1549E1C34CC8F00676993 /* TTDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDetailCell.h; sourceTree = "<group>"; };
+		C1A1549F1C34CC8F00676993 /* TTDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDetailCell.m; sourceTree = "<group>"; };
+		C1A154A11C35430E00676993 /* TTDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDetail.h; sourceTree = "<group>"; };
+		C1A154A21C35430E00676993 /* TTDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDetail.m; sourceTree = "<group>"; };
+		C1F3CDF91C33C92C00B8ED98 /* TTSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSettingView.h; sourceTree = "<group>"; };
+		C1F3CDFA1C33C92C00B8ED98 /* TTSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSettingView.m; sourceTree = "<group>"; };
+		D28372FAE80EA0766C8206DC /* Pods-UNeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UNeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UNeed/Pods-UNeed.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C186D1681C2D0D1C00D55CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5949D2D5471A09EFF3020D5E /* Pods_UNeed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2C5F0FBB9AEDEB5DEFE02C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				289E20D5805D6FAF3C4BA5EE /* Pods_UNeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C11910361C2D113D00D0F233 /* TTSide */ = {
+			isa = PBXGroup;
+			children = (
+				C11910371C2D117800D0F233 /* TTSideController.h */,
+				C11910381C2D117800D0F233 /* TTSideController.m */,
+			);
+			name = TTSide;
+			sourceTree = "<group>";
+		};
+		C119103A1C2D12AE00D0F233 /* TTMain */ = {
+			isa = PBXGroup;
+			children = (
+				C186D1711C2D0D1C00D55CA9 /* AppDelegate.h */,
+				C186D1721C2D0D1C00D55CA9 /* AppDelegate.m */,
+				C119103F1C2E581C00D0F233 /* TTRootViewController.h */,
+				C11910401C2E581C00D0F233 /* TTRootViewController.m */,
+			);
+			name = TTMain;
+			sourceTree = "<group>";
+		};
+		C119103B1C2D12E500D0F233 /* TTHomoe */ = {
+			isa = PBXGroup;
+			children = (
+				C119103C1C2D130900D0F233 /* TThomeController.h */,
+				C119103D1C2D130900D0F233 /* TThomeController.m */,
+				C1F3CDF91C33C92C00B8ED98 /* TTSettingView.h */,
+				C1F3CDFA1C33C92C00B8ED98 /* TTSettingView.m */,
+				C1A1549E1C34CC8F00676993 /* TTDetailCell.h */,
+				C1A1549F1C34CC8F00676993 /* TTDetailCell.m */,
+				C1A154A11C35430E00676993 /* TTDetail.h */,
+				C1A154A21C35430E00676993 /* TTDetail.m */,
+			);
+			name = TTHomoe;
+			sourceTree = "<group>";
+		};
+		C11910431C2E60C800D0F233 /* TTPublish */ = {
+			isa = PBXGroup;
+			children = (
+				C11910441C2E60EB00D0F233 /* TTPublishController.h */,
+				C11910451C2E60EB00D0F233 /* TTPublishController.m */,
+			);
+			name = TTPublish;
+			sourceTree = "<group>";
+		};
+		C11910471C2E60F200D0F233 /* TTRecord */ = {
+			isa = PBXGroup;
+			children = (
+				C11910481C2E611800D0F233 /* TTRecordController.h */,
+				C11910491C2E611800D0F233 /* TTRecordController.m */,
+			);
+			name = TTRecord;
+			sourceTree = "<group>";
+		};
+		C119104B1C2E612100D0F233 /* TTProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C119104C1C2E613B00D0F233 /* TTProfileController.h */,
+				C119104D1C2E613B00D0F233 /* TTProfileController.m */,
+			);
+			name = TTProfile;
+			sourceTree = "<group>";
+		};
+		C119104F1C2E717100D0F233 /* TTLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C11910501C2E71F400D0F233 /* TTLoginRegController.h */,
+				C11910511C2E71F400D0F233 /* TTLoginRegController.m */,
+				C119105C1C2E8B2D00D0F233 /* TTRegController.h */,
+				C119105D1C2E8B2D00D0F233 /* TTRegController.m */,
+			);
+			name = TTLogin;
+			sourceTree = "<group>";
+		};
+		C11910531C2E726700D0F233 /* TTGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				C11910581C2E7AD900D0F233 /* TTGlobals.h */,
+				C11910591C2E865B00D0F233 /* TTTools.h */,
+				C119105A1C2E865B00D0F233 /* TTTools.m */,
+			);
+			name = TTGlobal;
+			sourceTree = "<group>";
+		};
+		C12F3EAD1C381DD600B226D6 /* TTChat */ = {
+			isa = PBXGroup;
+			children = (
+				C12F3EAE1C381E0A00B226D6 /* TTChatController.h */,
+				C12F3EAF1C381E0A00B226D6 /* TTChatController.m */,
+			);
+			name = TTChat;
+			sourceTree = "<group>";
+		};
+		C186D1621C2D0D1B00D55CA9 = {
+			isa = PBXGroup;
+			children = (
+				C186D16D1C2D0D1C00D55CA9 /* UNeed */,
+				C186D16C1C2D0D1C00D55CA9 /* Products */,
+				F33A33E908DFE57A1FF79C73 /* Pods */,
+				5C2C5F0FBB9AEDEB5DEFE02C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C186D16C1C2D0D1C00D55CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C186D16B1C2D0D1C00D55CA9 /* UNeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C186D16D1C2D0D1C00D55CA9 /* UNeed */ = {
+			isa = PBXGroup;
+			children = (
+				C186D1851C2D0D6A00D55CA9 /* Classes */,
+				C186D17A1C2D0D1C00D55CA9 /* Assets.xcassets */,
+				C186D17C1C2D0D1C00D55CA9 /* LaunchScreen.storyboard */,
+				C186D17F1C2D0D1C00D55CA9 /* Info.plist */,
+				C186D16E1C2D0D1C00D55CA9 /* Supporting Files */,
+			);
+			path = UNeed;
+			sourceTree = "<group>";
+		};
+		C186D16E1C2D0D1C00D55CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C186D16F1C2D0D1C00D55CA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C186D1851C2D0D6A00D55CA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C12F3EAD1C381DD600B226D6 /* TTChat */,
+				C11910531C2E726700D0F233 /* TTGlobal */,
+				C119104F1C2E717100D0F233 /* TTLogin */,
+				C119104B1C2E612100D0F233 /* TTProfile */,
+				C11910471C2E60F200D0F233 /* TTRecord */,
+				C11910431C2E60C800D0F233 /* TTPublish */,
+				C119103B1C2D12E500D0F233 /* TTHomoe */,
+				C11910361C2D113D00D0F233 /* TTSide */,
+				C119103A1C2D12AE00D0F233 /* TTMain */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F33A33E908DFE57A1FF79C73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D28372FAE80EA0766C8206DC /* Pods-UNeed.debug.xcconfig */,
+				8BE2B01097C1F6369A84B925 /* Pods-UNeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C186D16A1C2D0D1C00D55CA9 /* UNeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C186D1821C2D0D1C00D55CA9 /* Build configuration list for PBXNativeTarget "UNeed" */;
+			buildPhases = (
+				DB59CA3781F74940A8B7E970 /* Check Pods Manifest.lock */,
+				C186D1671C2D0D1C00D55CA9 /* Sources */,
+				C186D1681C2D0D1C00D55CA9 /* Frameworks */,
+				C186D1691C2D0D1C00D55CA9 /* Resources */,
+				43B53E8953B6DA32135B17BA /* Embed Pods Frameworks */,
+				43934304E0FE377A754C9ABB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UNeed;
+			productName = UNeed;
+			productReference = C186D16B1C2D0D1C00D55CA9 /* UNeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C186D1631C2D0D1B00D55CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.onesetp.WflytoC;
+				TargetAttributes = {
+					C186D16A1C2D0D1C00D55CA9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C186D1661C2D0D1B00D55CA9 /* Build configuration list for PBXProject "UNeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C186D1621C2D0D1B00D55CA9;
+			productRefGroup = C186D16C1C2D0D1C00D55CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C186D16A1C2D0D1C00D55CA9 /* UNeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C186D1691C2D0D1C00D55CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C186D17E1C2D0D1C00D55CA9 /* LaunchScreen.storyboard in Resources */,
+				C186D17B1C2D0D1C00D55CA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43934304E0FE377A754C9ABB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UNeed/Pods-UNeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43B53E8953B6DA32135B17BA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UNeed/Pods-UNeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB59CA3781F74940A8B7E970 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C186D1671C2D0D1C00D55CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C119104A1C2E611800D0F233 /* TTRecordController.m in Sources */,
+				C11910391C2D117800D0F233 /* TTSideController.m in Sources */,
+				C11910521C2E71F400D0F233 /* TTLoginRegController.m in Sources */,
+				C186D1731C2D0D1C00D55CA9 /* AppDelegate.m in Sources */,
+				C11910411C2E581C00D0F233 /* TTRootViewController.m in Sources */,
+				C119103E1C2D130900D0F233 /* TThomeController.m in Sources */,
+				C119105B1C2E865B00D0F233 /* TTTools.m in Sources */,
+				C119104E1C2E613B00D0F233 /* TTProfileController.m in Sources */,
+				C186D1701C2D0D1C00D55CA9 /* main.m in Sources */,
+				C1A154A01C34CC8F00676993 /* TTDetailCell.m in Sources */,
+				C12F3EB01C381E0A00B226D6 /* TTChatController.m in Sources */,
+				C119105E1C2E8B2D00D0F233 /* TTRegController.m in Sources */,
+				C11910461C2E60EB00D0F233 /* TTPublishController.m in Sources */,
+				C1A154A31C35430E00676993 /* TTDetail.m in Sources */,
+				C1F3CDFB1C33C92C00B8ED98 /* TTSettingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C186D17C1C2D0D1C00D55CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C186D17D1C2D0D1C00D55CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C186D1801C2D0D1C00D55CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C186D1811C2D0D1C00D55CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C186D1831C2D0D1C00D55CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28372FAE80EA0766C8206DC /* Pods-UNeed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UNeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccmobile.UNeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C186D1841C2D0D1C00D55CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE2B01097C1F6369A84B925 /* Pods-UNeed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UNeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccmobile.UNeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C186D1661C2D0D1B00D55CA9 /* Build configuration list for PBXProject "UNeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C186D1801C2D0D1C00D55CA9 /* Debug */,
+				C186D1811C2D0D1C00D55CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C186D1821C2D0D1C00D55CA9 /* Build configuration list for PBXNativeTarget "UNeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C186D1831C2D0D1C00D55CA9 /* Debug */,
+				C186D1841C2D0D1C00D55CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C186D1631C2D0D1B00D55CA9 /* Project object */;
+}

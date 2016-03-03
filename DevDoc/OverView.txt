@@ -1,0 +1,22 @@
+UNeedk开发文档：
+
+1.iOS端(采用Objective-C语言)：
+
+第三方服务：
+
+百度地图-----应用AK:bAVC8VoESefHKnwIPQ3iOlGC
+安装：pod 'BaiduMapKit' #百度地图SDK
+
+融云SDK-----搭建即时通讯环境
+
+
+第三方框架：
+AFNetworking
+Masonry
+RESideMenu
+BaiduMapKit
+Toast
+MBProgressHud
+
+
+2.服务器端(采用PHP语言)：

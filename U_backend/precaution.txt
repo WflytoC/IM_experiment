@@ -1,0 +1,6 @@
+利用bae作为服务器开发后台需要注意的部分：
+
+1.
+百度bae返回的json数据格式被会当做text/plain，要在AFNetworking框架中的
+AFURLResponseSerialization.m文件中修改代码：
+self.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/plain", nil];

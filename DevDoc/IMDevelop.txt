@@ -1,0 +1,46 @@
+融云工作架构：
+
+消息需要经过融云服务器转发（IM 的离线、通知等逻辑决定了消息必须经由服务器进行一次转发）
+
+融云的集成流程：
+1.App 服务端换取 Token 流程
+2.客户端集成流程
+3.UI 界面自定义
+
+
+
+
+客户端----------
+
+
+1.导入 SDK: 通过 CocoaPods 管理依赖；
+
+2.在需要使用融云 SDK 功能的类中，import 相关头文件。
+#import <RongIMKit/RongIMKit.h>
+
+使用之前从融云开发者控制台注册得到的 App Key，通过RCIM的单例，传入 initWithAppKey: 方法，初始化 SDK。
+在使用融云 SDK 所有功能（包括显示 SDK 中的 View 或者显示继承于 SDK 的 View ）之前，您必须先调用此方法初始化 SDK。 在 App 的整个生命周期中，您只需要将 SDK 初始化一次。
+[[RCIM sharedRCIM] initWithAppKey:@"YourTestAppKey"];
+
+
+3.连接服务器
+在 App 整个生命周期，您只需要调用一次此方法与融云服务器建立连接。之后无论是网络出现异常或者 App 有前后台的切换等，SDK 都会负责自动重连。SDK 针对 iOS 的前后台和各种网络状况，进行了连接和重连机制的优化，建议您调用一次 connectWithToken 即可，其余交给SDK处理。 除非您已经手动将连接断开，否则您不需要自己再手动重连。
+
+[[RCIM sharedRCIM] connectWithToken:@"YourTestUserToken" success:^(NSString *userId) {
+    NSLog(@"登陆成功。当前登录的用户ID：%@", userId);
+} error:^(RCConnectErrorCode status) {
+    NSLog(@"登陆的错误码为:%d", status);
+} tokenIncorrect:^{
+    //token过期或者不正确。
+    //如果设置了token有效期并且token过期，请重新请求您的服务器获取新的token
+    //如果没有设置token有效期却提示token错误，请检查您客户端和服务器的appkey是否匹配，还有检查您获取token的流程。
+    NSLog(@"token错误");
+}];
+
+4.聊天最重要的UI：消息会话列表、聊天界面
+
+
+
+服务器端----------
+
+1.获取Token，并将Token存储在数据库中
